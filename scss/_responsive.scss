@@ -1,5 +1,5 @@
 
-    @media (min-width: 821px) {
+        @media (min-width: 821px) {
         nav {
             display: flex;
             justify-content: space-between;
@@ -8,16 +8,17 @@
         }
         
         header {
+            width: 100%;
             display: flex;
+            position: sticky;
+            flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            position: sticky;
             width: 100%;
             top: 0px;
             background-color: white;
             box-shadow: 0px 1px 7px rgb(197, 196, 196);
             font-weight: bold;
-            
         }
     
         header a {
@@ -342,7 +343,7 @@
             box-shadow: 0px 1px 7px rgb(197, 196, 196);
             font-weight: bold;
         }
-        
+
         .logo {
             width: 20%;
             padding: 20px ;

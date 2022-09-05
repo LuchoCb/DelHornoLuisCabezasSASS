@@ -1,0 +1,14 @@
+@mixin margin ($margintop,$marginright,$marginbottom,$marginleft) {
+    margin-top: $margintop;
+    margin-right: $marginright;
+    margin-bottom: $marginbottom;
+    margin-left: $marginleft;
+    
+}
+
+@mixin padding ($paddingtop,$paddingright,$paddingbottom,$paddingleft) {
+    padding-top: $paddingtop;
+    padding-right: $paddingright;
+    padding-bottom: $paddingbottom;
+    padding-left: $paddingleft;
+}
