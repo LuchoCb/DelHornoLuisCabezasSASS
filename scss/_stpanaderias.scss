@@ -1,0 +1,77 @@
+//Estilos panaderías
+
+@import "colores";
+
+@mixin padding ($paddingtop,$paddingright,$paddingbottom,$paddingleft) {
+    padding-top: $paddingtop;
+    padding-right: $paddingright;
+    padding-bottom: $paddingbottom;
+    padding-left: $paddingleft;
+}
+
+@mixin flexCenter { 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+    
+}
+
+
+#PanaderiasTitle span {
+    color: $colorsecundario;
+}
+
+.BakeryMap {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    @include flexCenter
+
+}
+
+#PanaderiasTitle {
+    margin-top: 8vh;
+    color: $colorterciario;
+    @include flexCenter
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px 320px);
+    gap: 24px;
+    place-content: center;
+}
+
+.productCont {
+    width: 100%;
+    height: 320px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+
+    div p:nth-child(4) {
+        font-size: large;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 2px;
+      }
+    
+    div p:nth-child(3) {
+    font-size: small;
+    color: grey;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+}
+
+  .product-info figure img {
+    width: 100%;
+  }

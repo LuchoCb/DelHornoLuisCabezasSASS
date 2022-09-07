@@ -1,0 +1,61 @@
+@import "colores";
+
+/*Estilos app*/
+
+.appmain {
+    display: grid;
+    grid-template-areas: 
+    "cel1  cel2  cel3"
+    "text1  text2 text3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 480px 200px;
+    align-items: top;
+    justify-items: center;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.cel1 {
+    grid-area: "cel1";
+}
+
+.cel2 {
+    grid-area: "cel2";
+}
+
+.cel3 {
+    grid-area: "cel3";
+}
+
+.text1 {
+    grid-area: text1;
+
+    p {
+        padding: 3% 20% 0% 20%;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+}
+
+.text2 {
+    grid-area: text2;
+
+    p {
+        padding: 3% 20% 0% 20%;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.text3 {
+    grid-area: text3;
+    
+    p {
+        padding: 3% 20% 0% 20%;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+
+
+

@@ -1,0 +1,75 @@
+@import "colores";
+
+/*Estilos main contacto*/
+
+.MainContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    img {
+        width: 6%;
+    }
+
+    form label input {
+        background-color: $colorwhite;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        text-align: center;
+        font-size: medium;
+    }
+
+    p {
+        margin: 2vh;
+        font-size:large;
+        text-align: center;
+    }
+    
+    form input {
+        margin:1%;
+    }
+
+    form textarea {
+        background-color: whitesmoke;
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+}
+
+#ContactTitle {
+    color: $colorterciario;
+    font-size: 140%;
+    margin-bottom: 4vh;
+    margin-top: 8vh;
+}
+
+
+#AyudaTitle {
+    font-size: larger;
+    font-weight: 900;
+    margin: 5vh 0vh 2vh 3vh;
+}
+
+
+form div {
+    margin-bottom: 20px;
+}
+
+.SendButton {
+    padding: 10px;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.contactbuttons {
+    display: flex;
+    justify-content: center;
+}
