@@ -2,50 +2,45 @@
 
 /*Estilos main contacto*/
 
+/*Estilos main contacto*/
+
 .MainContact {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    
-    img {
-        width: 6%;
-    }
-
-    form label input {
-        background-color: $colorwhite;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 0px 10px 0px;
-        width: 100%;
-        text-align: center;
-        font-size: medium;
-    }
-
-    p {
-        margin: 2vh;
-        font-size:large;
-        text-align: center;
-    }
-    
-    form input {
-        margin:1%;
-    }
-
-    form textarea {
-        background-color: whitesmoke;
-        border: none;
-        border-radius: 10px;
-        width: 100%;
-        margin-bottom: 2vh;
-    }
 }
 
 #ContactTitle {
-    color: $colorterciario;
+    color: #2E4053;
     font-size: 140%;
     margin-bottom: 4vh;
     margin-top: 8vh;
+}
+
+.MainContact img {
+    width: 6%;
+}
+
+.MainContact form label input {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+
+}
+
+.MainContact p {
+    margin: 2vh;
+    font-size:large;
+    text-align: center;
+}
+
+.MainContact form input {
+    margin:1%;
 }
 
 
@@ -55,6 +50,13 @@
     margin: 5vh 0vh 2vh 3vh;
 }
 
+.MainContact form textarea {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 2vh;
+}
 
 form div {
     margin-bottom: 20px;
@@ -62,6 +64,7 @@ form div {
 
 .SendButton {
     padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
     font-size: medium;
     cursor: pointer;

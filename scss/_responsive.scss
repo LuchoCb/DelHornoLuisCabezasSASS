@@ -1,4 +1,6 @@
 
+        @import "colores";
+        
         @media (min-width: 821px) {
         nav {
             display: flex;
@@ -16,7 +18,7 @@
             align-items: center;
             width: 100%;
             top: 0px;
-            background-color: white;
+            background-color: $colorwhite;
             box-shadow: 0px 1px 7px rgb(197, 196, 196);
             font-weight: bold;
         }
@@ -70,7 +72,7 @@
             padding-left: 40vh;
         }
         
-        label {
+        .burguer {
             margin: 0 40px 0 0;
             font-size: 26px;
             line-height: 150px;
@@ -157,7 +159,7 @@
         .PrincipalImg div{
             width: 500px;
             position: absolute;
-            color: whitesmoke;
+            color: $colorwhite;
             margin-bottom: 20px;
         
         }
@@ -323,6 +325,88 @@
         #playstore {
             height: 4vh;
         }
+
+        /* Estilos Panaderías*/
+
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 320px 320px);
+            gap: 24px;
+            place-content: center;
+        }
+
+        .productCont {
+            width: 100%;
+            height: 320px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+                /*Estilos app*/
+
+        .appmain {
+            display: grid;
+            grid-template-areas: 
+            "cel1  cel2  cel3"
+            "text1  text2 text3";
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 480px 200px;
+            align-items: top;
+            justify-items: center;
+            text-align: center;
+            margin-top: 40px;
+
+        }
+
+        .cel1 {
+            grid-area: "cel1";
+        }
+
+        .cel2 {
+            grid-area: "cel2";
+        }
+
+        .cel3 {
+            grid-area: "cel3";
+        }
+
+        .text1 {
+            grid-area: text1;
+
+            p {
+                padding: 3% 20% 0% 20%;
+                font-family: 'Poppins', sans-serif;
+            }
+            
+        }
+
+        .text2 {
+            grid-area: text2;
+
+            p {
+                padding: 3% 20% 0% 20%;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+
+        .text3 {
+            grid-area: text3;
+            
+            p {
+                padding: 3% 20% 0% 20%;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+
+        .MainInscript {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            margin-left: 30px;
+            width: 100%;
+        }
         
         }
         
@@ -349,7 +433,7 @@
             padding: 20px ;
         }
           
-        label {
+        .burguer {
             display: flex;
             cursor: pointer;
             margin: 50px 0px 0px 400px;
@@ -591,6 +675,57 @@
         #playstore {
             height: 4vh;
         }
+
+        /* Estilos Panaderías*/
+
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 320px 320px);
+            gap: 24px;
+            place-content: center;
+        }
+
+        .productCont {
+            width: 100%;
+            height: 320px;
+            border-radius: 0px;
+            object-fit: cover;
+        }
+
+            /*Estilos Inscripcion*/
+
+        .mainscrip {
+            width: 100%;
+        }
+
+        .MainInscript{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        
+        .VideoInscripcion {
+            width: 100%;
+        }
+
+        .MainInscript h2 {
+            text-align: center;
+            width: 70%;
+            font-size: medium;
+            margin-top: 30px;
+        }
+
+        #Inscriptitle {
+            margin-top: 8vh;
+            font-size:40px;
+            color:#684814;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #Inscriptitle span {
+            color: #9C640C;
+        }
         
         /*Footer*/
         
@@ -604,7 +739,7 @@
         
         .FooterSocial img{
             width: 20%;
-            background-color: white;
+            background-color: $colorwhite;
         }
         
         .Legal {
@@ -617,7 +752,7 @@
             padding-top: 30px;
             padding-bottom: 0px;
             width: 50%;
-            background-color: #F39C12;
+            background-color: $colorprincipal;
         }
         
         }
@@ -644,7 +779,7 @@
             padding: 20px;
         }
             
-        label {
+        .burguer {
             display: flex;
             cursor: pointer;
             margin: 30px 0px 0px 300px;
@@ -969,6 +1104,93 @@
         .text3 p {
             padding: 3% 20% 0% 20%;
             font-family: 'Poppins', sans-serif;
+        }
+
+
+            /*Estilos Inscripcion*/
+
+        .MainInscript{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        
+        .VideoInscripcion {
+            width: 100%;
+            margin-top: 6vh;
+        }
+
+        .MainInscript h2 {
+            text-align: center;
+            width: 70%;
+            font-size: medium;
+            margin-top: 3vh;
+        }
+
+        #Inscriptitle {
+            margin-top: 6vh;
+            font-size:30px;
+            color:#684814;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #Inscriptitle span {
+            color: #9C640C;
+        }
+
+        /* Estilos Panaderías*/
+
+        #PanaderiasTitle {
+            margin-top: 8vh;
+            color: $colorterciario;
+            text-align: center;
+        }
+
+        .cards-container {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            place-content: center;
+        }
+
+        .productCont {
+            width: 100%;
+            height: 320px;
+            border-radius: 0px;
+            object-fit: cover;
+        }
+
+            /*Estilos Inscripcion*/
+
+        .MainInscript{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        
+        .VideoInscripcion {
+            width: 100%;
+            margin-top: 6vh;
+        }
+
+        .MainInscript h2 {
+            text-align: center;
+            width: 70%;
+            font-size: medium;
+            margin-top: 3vh;
+        }
+
+        #Inscriptitle {
+            margin-top: 6vh;
+            font-size:30px;
+            color:#684814;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #Inscriptitle span {
+            color: #9C640C;
         }
     
             /*Footer*/
