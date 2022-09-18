@@ -4,8 +4,6 @@
 @import "stpanaderias";
 @import "stinscripciones";
 @import "stcontacto";
-@import "stnosotros";
-@import "stcarrito";
 
 * {
   margin: 0;
@@ -27,10 +25,10 @@ body {
   padding: 4% 0 4% 0;
   color: $colorterciario;
   text-align: center;
-}
 
-.Product > h1 > span {
-  color: $colorprincipal;
+  span {
+    color: $colorprincipal;
+  }
 }
 
 /*Estilos Footer*/

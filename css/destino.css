@@ -121,7 +121,7 @@
     padding-right: 20px;
     margin-bottom: 2vh;
   }
-  .InfoImg p span {
+  .IntroImg p span {
     font-size: larger;
     font-style: italic;
   }
@@ -138,7 +138,7 @@
     grid-template-rows: 290px 130px 251px 257px;
     justify-items: center;
   }
-  .ProductDescription > div > div > p {
+  .ProductDescription div > div > p {
     font-size: x-large;
     font-weight: bold;
   }
@@ -155,7 +155,7 @@
     align-items: flex-end;
     transition: width 2s height 2s;
   }
-  .PrincipalImg:hover {
+  .PrincipalImg :hover {
     width: 553px;
     height: 880px;
   }
@@ -233,7 +233,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .txt2center > h3 {
+  .txt2center h3 {
     padding-bottom: 1vh;
     font-weight: normal;
   }
@@ -1443,23 +1443,20 @@
   .text1 {
     padding-bottom: 20px;
   }
+  .text1 p {
+    padding: 3% 20% 0% 20%;
+  }
   .text2 {
     padding-bottom: 20px;
+  }
+  .text2 p {
+    padding: 3% 20% 0% 20%;
   }
   .text3 {
     padding-bottom: 20px;
   }
-  .text1 p {
-    padding: 3% 20% 0% 20%;
-    font-family: "Poppins", sans-serif;
-  }
-  .text2 p {
-    padding: 3% 20% 0% 20%;
-    font-family: "Poppins", sans-serif;
-  }
   .text3 p {
     padding: 3% 20% 0% 20%;
-    font-family: "Poppins", sans-serif;
   }
   /*Estilos Inscripcion*/
   .VideoInscripcion {
@@ -1543,7 +1540,6 @@
   }
   .SendButton {
     padding: 10px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: 600;
     font-size: medium;
     cursor: pointer;
@@ -1698,10 +1694,6 @@
     background-color: #f39c12;
   }
 }
-#PanaderiasTitle span {
-  color: #9C640C;
-}
-
 .BakeryMap {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -1719,6 +1711,9 @@
   align-items: center;
   justify-content: center;
   justify-items: center;
+}
+#PanaderiasTitle span {
+  color: #9C640C;
 }
 
 .product-info {
@@ -1738,7 +1733,6 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .product-info figure img {
   width: 100%;
 }
@@ -1751,34 +1745,11 @@
   flex-direction: column;
   align-items: center;
 }
-
-#Inscriptitle {
-  margin-top: 8vh;
-  color: #684814;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-}
-
-#Inscriptitle span {
-  color: #9C640C;
-}
-
-.MainInscript div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 .InscripForm label {
   width: 70%;
   display: flex;
   justify-content: center;
 }
-
 .InscripForm label input {
   background-color: whitesmoke;
   border: none;
@@ -1794,12 +1765,31 @@
   padding: 3% 0%;
 }
 
+#Inscriptitle {
+  margin-top: 8vh;
+  color: #684814;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+#Inscriptitle span {
+  color: #9C640C;
+}
+
+.MainInscript div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .MainInscript h2 {
   text-align: center;
   width: 70%;
 }
 
-/*Estilos main contacto*/
 /*Estilos main contacto*/
 .MainContact {
   display: flex;
@@ -1807,14 +1797,14 @@
   align-items: center;
   width: 100%;
 }
-
-#ContactTitle {
-  color: #2E4053;
-  font-size: 140%;
-  margin-bottom: 4vh;
-  margin-top: 8vh;
+.MainContact p {
+  margin: 2vh;
+  font-size: large;
+  text-align: center;
 }
-
+.MainContact form input {
+  margin: 1%;
+}
 .MainContact form label input {
   background-color: whitesmoke;
   border: none;
@@ -1824,29 +1814,25 @@
   text-align: center;
   font-size: medium;
 }
-
-.MainContact p {
-  margin: 2vh;
-  font-size: large;
-  text-align: center;
-}
-
-.MainContact form input {
-  margin: 1%;
-}
-
-#AyudaTitle {
-  font-size: larger;
-  font-weight: 900;
-  margin: 5vh 0vh 2vh 3vh;
-}
-
 .MainContact form textarea {
   background-color: whitesmoke;
   border: none;
   border-radius: 10px;
   width: 100%;
   margin-bottom: 2vh;
+}
+
+#ContactTitle {
+  color: #2e4053;
+  font-size: 140%;
+  margin-bottom: 4vh;
+  margin-top: 8vh;
+}
+
+#AyudaTitle {
+  font-size: larger;
+  font-weight: 900;
+  margin: 5vh 0vh 2vh 3vh;
 }
 
 form div {
@@ -1878,8 +1864,7 @@ body {
   color: #684814;
   text-align: center;
 }
-
-.Product > h1 > span {
+.Product > h1 span {
   color: #F39C12;
 }
 

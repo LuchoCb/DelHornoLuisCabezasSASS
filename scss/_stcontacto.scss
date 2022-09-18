@@ -2,23 +2,23 @@
 
 /*Estilos main contacto*/
 
-/*Estilos main contacto*/
-
 .MainContact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 
-#ContactTitle {
-    color: #2E4053;
-    font-size: 140%;
-    margin-bottom: 4vh;
-    margin-top: 8vh;
-}
+  p {
+    margin: 2vh;
+    font-size: large;
+    text-align: center;
+  }
 
-.MainContact form label input {
+  form input {
+    margin: 1%;
+  }
+
+  form label input {
     background-color: whitesmoke;
     border: none;
     border-radius: 5px;
@@ -26,39 +26,35 @@
     width: 100%;
     text-align: center;
     font-size: medium;
+  }
 
-}
-
-.MainContact p {
-    margin: 2vh;
-    font-size:large;
-    text-align: center;
-}
-
-.MainContact form input {
-    margin:1%;
-}
-
-
-#AyudaTitle {
-    font-size: larger;
-    font-weight: 900;
-    margin: 5vh 0vh 2vh 3vh;
-}
-
-.MainContact form textarea {
+  form textarea {
     background-color: whitesmoke;
     border: none;
     border-radius: 10px;
     width: 100%;
     margin-bottom: 2vh;
+  }
+}
+
+#ContactTitle {
+  color: #2e4053;
+  font-size: 140%;
+  margin-bottom: 4vh;
+  margin-top: 8vh;
+}
+
+#AyudaTitle {
+  font-size: larger;
+  font-weight: 900;
+  margin: 5vh 0vh 2vh 3vh;
 }
 
 form div {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .contactbuttons {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }

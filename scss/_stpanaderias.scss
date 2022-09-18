@@ -21,11 +21,6 @@
     
 }
 
-
-#PanaderiasTitle span {
-    color: $colorsecundario;
-}
-
 .BakeryMap {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -37,7 +32,11 @@
 #PanaderiasTitle {
     margin-top: 8vh;
     color: $colorterciario;
-    @include flexCenter
+    @include flexCenter;
+    
+    span {
+        color: $colorsecundario;
+    }
 }
 
 .product-info {
@@ -58,8 +57,8 @@
     margin-top: 0;
     margin-bottom: 0;
     }
-}
 
-  .product-info figure img {
-    width: 100%;
-  }
+    figure img {
+        width: 100%;
+      }
+}

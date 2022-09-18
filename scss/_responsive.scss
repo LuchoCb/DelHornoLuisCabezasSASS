@@ -134,17 +134,17 @@
     flex-direction: row;
     margin-bottom: 20px;
     color: white;
-  }
 
-  .IntroImg h1 {
-    font-size: xx-large;
-    padding-right: 20px;
-    margin-bottom: 2vh;
-  }
+    h1 {
+      font-size: xx-large;
+      padding-right: 20px;
+      margin-bottom: 2vh;
+    }
 
-  .InfoImg p span {
-    font-size: larger;
-    font-style: italic;
+    p span {
+      font-size: larger;
+      font-style: italic;
+    }
   }
 
   .Product {
@@ -164,11 +164,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 290px 130px 251px 257px;
     justify-items: center;
-  }
 
-  .ProductDescription > div > div > p {
-    font-size: x-large;
-    font-weight: bold;
+    div > div > p {
+      font-size: x-large;
+      font-weight: bold;
+    }
   }
 
   #stars {
@@ -184,18 +184,18 @@
     justify-content: center;
     align-items: flex-end;
     transition: width 2s height 2s;
-  }
 
-  .PrincipalImg:hover {
-    width: 553px;
-    height: 880px;
-  }
+    :hover {
+      width: 553px;
+      height: 880px;
+    }
 
-  .PrincipalImg div {
-    width: 500px;
-    position: absolute;
-    color: $colorwhite;
-    margin-bottom: 20px;
+    div {
+      width: 500px;
+      position: absolute;
+      color: $colorwhite;
+      margin-bottom: 20px;
+    }
   }
 
   .scale-up-center {
@@ -220,7 +220,7 @@
     display: none;
   }
 
-  .img2 {
+  .img2{
     grid-area: img2;
     width: 99%;
     border-radius: 10px;
@@ -278,11 +278,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
 
-  .txt2center > h3 {
-    padding-bottom: 1vh;
-    font-weight: normal;
+    h3 {
+      padding-bottom: 1vh;
+      font-weight: normal;
+    }
   }
 
   .txt3 {
@@ -292,11 +292,11 @@
     align-items: left;
     margin-top: 70px;
     width: 94%;
-  }
 
-  .txt3 h3 {
-    font-size: medium;
-    font-weight: normal;
+    h3 {
+      font-size: medium;
+      font-weight: normal;
+    }
   }
 
   .txt4 {
@@ -306,11 +306,11 @@
     align-items: left;
     margin-top: 70px;
     width: 94%;
-  }
 
-  .txt4 h3 {
-    font-size: medium;
-    font-weight: normal;
+    h3 {
+      font-size: medium;
+      font-weight: normal;
+    }
   }
 
   .VerMas {
@@ -848,12 +848,12 @@
     align-items: center;
     margin-top: 20px;
     width: 85%;
-  }
 
-  .txt11 h3 {
-    width: 180px;
-    font-size: medium;
-    font-weight: normal;
+    h3 {
+      width: 180px;
+      font-size: medium;
+      font-weight: normal;
+    }
   }
 
   .img2 {
@@ -877,12 +877,12 @@
     align-items: center;
     margin-top: 20px;
     width: 85%;
-  }
 
-  .txt22 h3 {
-    width: 180px;
-    font-size: medium;
-    font-weight: normal;
+    h3 {
+      width: 180px;
+      font-size: medium;
+      font-weight: normal;
+    }
   }
 
   .img3 {
@@ -900,12 +900,12 @@
     align-items: center;
     margin-top: 20px;
     width: 85%;
-  }
 
-  .txt3 h3 {
-    width: 180px;
-    font-size: medium;
-    font-weight: normal;
+    h3 {
+      width: 180px;
+      font-size: medium;
+      font-weight: normal;
+    }
   }
 
   .txt4 {
@@ -915,12 +915,12 @@
     align-items: center;
     margin-top: 20px;
     width: 85%;
-  }
 
-  .txt4 h3 {
-    width: 180px;
-    font-size: medium;
-    font-weight: normal;
+    h3 {
+      width: 180px;
+      font-size: medium;
+      font-weight: normal;
+    }
   }
 
   #stars {
@@ -1112,10 +1112,10 @@
     color: $colorterciario;
     display: flex;
     flex-direction: column;
-  }
 
-  #Inscriptitle span {
-    color: $colorsecundario;
+    span {
+      color: $colorsecundario;
+    }
   }
 
   // CARRITO //
@@ -1445,19 +1445,20 @@
     flex-direction: row;
     margin-bottom: 20px;
     color: white;
-  }
-  .IntroImg h1 {
-    font-size: medium;
-    padding-right: 40px;
-    margin-bottom: 2vh;
+
+    h1 {
+      font-size: medium;
+      padding-right: 40px;
+      margin-bottom: 2vh;
+    }
   }
 
   .InfoImg {
     margin-top: 5%;
-  }
-
-  .InfoImg p {
-    font-size: small;
+    
+    p {
+      font-size: small;
+    }
   }
 
   /*Index main*/
@@ -1527,12 +1528,12 @@
     align-items: center;
     margin-top: 20px;
     width: 85%;
-  }
 
-  .txt11 h3 {
-    width: 180px;
-    font-size: medium;
-    font-weight: normal;
+    h3 {
+      width: 180px;
+      font-size: medium;
+      font-weight: normal;
+    }
   }
 
   .img2 {
@@ -1556,12 +1557,12 @@
     align-items: center;
     margin-top: 20px;
     width: 85%;
-  }
 
-  .txt22 h3 {
-    width: 180px;
-    font-size: medium;
-    font-weight: normal;
+    h3 {
+      width: 180px;
+      font-size: medium;
+      font-weight: normal;
+    }
   }
 
   .img3 {
@@ -1579,12 +1580,12 @@
     align-items: center;
     margin-top: 20px;
     width: 85%;
-  }
 
-  .txt3 h3 {
-    width: 180px;
-    font-size: medium;
-    font-weight: normal;
+    h3 {
+      width: 180px;
+      font-size: medium;
+      font-weight: normal;
+    }
   }
 
   .txt4 {
@@ -1594,12 +1595,12 @@
     align-items: center;
     margin-top: 20px;
     width: 85%;
-  }
 
-  .txt4 h3 {
-    width: 180px;
-    font-size: medium;
-    font-weight: normal;
+    h3 {
+      width: 180px;
+      font-size: medium;
+      font-weight: normal;
+    }
   }
 
   #stars {
@@ -1634,13 +1635,13 @@
     text-align: center;
     align-content: center;
     padding: 60px 60px;
-  }
 
-  .AppDownload h2 {
-    font-weight: bold;
-    padding-bottom: 10px;
+    h2 {
+      font-weight: bold;
+      padding-bottom: 10px;
+    }  
   }
-
+  
   #appstore {
     height: 4vh;
     margin-top: 20px;
@@ -1728,29 +1729,26 @@
 
   .text1 {
     padding-bottom: 20px;
+
+    p {
+      padding: 3% 20% 0% 20%;
+    }
   }
 
   .text2 {
     padding-bottom: 20px;
+
+    p {
+      padding: 3% 20% 0% 20%;
+    }
   }
 
   .text3 {
     padding-bottom: 20px;
-  }
 
-  .text1 p {
-    padding: 3% 20% 0% 20%;
-    font-family: "Poppins", sans-serif;
-  }
-
-  .text2 p {
-    padding: 3% 20% 0% 20%;
-    font-family: "Poppins", sans-serif;
-  }
-
-  .text3 p {
-    padding: 3% 20% 0% 20%;
-    font-family: "Poppins", sans-serif;
+    p {
+      padding: 3% 20% 0% 20%;
+    }
   }
 
   /*Estilos Inscripcion*/
@@ -1773,10 +1771,10 @@
     color: $colorterciario;
     display: flex;
     flex-direction: column;
-  }
 
-  #Inscriptitle span {
-    color: $colorsecundario;
+    span {
+      color: $colorsecundario;
+    }
   }
 
   /* Estilos Panaderías*/
@@ -1852,8 +1850,6 @@
 
   .SendButton {
     padding: 10px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: 600;
     font-size: medium;
     cursor: pointer;
@@ -2015,11 +2011,11 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 5px;
-  }
 
-  .FooterSocial img {
-    width: 20%;
-    padding-bottom: 5px;
+    img {
+      width: 20%;
+      padding-bottom: 5px;
+    }
   }
 
   .Legal {
