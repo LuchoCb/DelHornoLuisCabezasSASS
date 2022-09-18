@@ -220,7 +220,7 @@
     display: none;
   }
 
-  .img2{
+  .img2 {
     grid-area: img2;
     width: 99%;
     border-radius: 10px;
@@ -1455,7 +1455,7 @@
 
   .InfoImg {
     margin-top: 5%;
-    
+
     p {
       font-size: small;
     }
@@ -1639,9 +1639,9 @@
     h2 {
       font-weight: bold;
       padding-bottom: 10px;
-    }  
+    }
   }
-  
+
   #appstore {
     height: 4vh;
     margin-top: 20px;
@@ -1994,7 +1994,6 @@
 
   /*Footer*/
 
-
   .FooterInfo a {
     text-decoration: none;
     display: flex;
@@ -2030,5 +2029,4 @@
     width: 100%;
     background-color: #f39c12;
   }
-
 }

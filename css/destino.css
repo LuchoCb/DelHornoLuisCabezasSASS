@@ -35,7 +35,7 @@
   .menu a {
     text-decoration: none;
     padding: 15px;
-    color: #9C640C;
+    color: #9c640c;
     font-size: 18px;
   }
   .menu a:hover {
@@ -580,7 +580,7 @@
   .menu a {
     text-decoration: none;
     padding: 15px;
-    color: #9C640C;
+    color: #9c640c;
     font-size: 18px;
   }
   .menu a:hover {
@@ -925,7 +925,7 @@
     flex-direction: column;
   }
   #Inscriptitle span {
-    color: #9C640C;
+    color: #9c640c;
   }
   .theOrder {
     width: 100%;
@@ -1150,7 +1150,7 @@
   .menu a {
     text-decoration: none;
     padding-bottom: 15px;
-    color: #9C640C;
+    color: #9c640c;
     font-size: 18px;
   }
   .shopCart {
@@ -1477,7 +1477,7 @@
     flex-direction: column;
   }
   #Inscriptitle span {
-    color: #9C640C;
+    color: #9c640c;
   }
   /* Estilos Panaderías*/
   #PanaderiasTitle {
@@ -1713,7 +1713,7 @@
   justify-items: center;
 }
 #PanaderiasTitle span {
-  color: #9C640C;
+  color: #9c640c;
 }
 
 .product-info {
@@ -1774,7 +1774,7 @@
   justify-items: center;
 }
 #Inscriptitle span {
-  color: #9C640C;
+  color: #9c640c;
 }
 
 .MainInscript div {
@@ -1865,7 +1865,7 @@ body {
   text-align: center;
 }
 .Product > h1 span {
-  color: #F39C12;
+  color: #f39c12;
 }
 
 /*Estilos Footer*/
@@ -1879,7 +1879,7 @@ footer {
   padding-right: 0;
   padding-bottom: 0;
   padding-left: 0;
-  background-color: #F39C12;
+  background-color: #f39c12;
 }
 footer :hover {
   color: gray;

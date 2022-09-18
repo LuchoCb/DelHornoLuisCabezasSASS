@@ -1,64 +1,58 @@
-
-
 @import "colores";
 
 //Estilos panaderías
 
-@mixin padding ($paddingtop,$paddingright,$paddingbottom,$paddingleft) {
-    padding-top: $paddingtop;
-    padding-right: $paddingright;
-    padding-bottom: $paddingbottom;
-    padding-left: $paddingleft;
+@mixin padding($paddingtop, $paddingright, $paddingbottom, $paddingleft) {
+  padding-top: $paddingtop;
+  padding-right: $paddingright;
+  padding-bottom: $paddingbottom;
+  padding-left: $paddingleft;
 }
 
-@mixin flexCenter { 
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-
-    
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 
 .BakeryMap {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    width: 100%;
-    @include flexCenter
-
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  @include flexCenter;
 }
 
 #PanaderiasTitle {
-    margin-top: 8vh;
-    color: $colorterciario;
-    @include flexCenter;
-    
-    span {
-        color: $colorsecundario;
-    }
+  margin-top: 8vh;
+  color: $colorterciario;
+  @include flexCenter;
+
+  span {
+    color: $colorsecundario;
+  }
 }
 
 .product-info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
 
-    div p:nth-child(4) {
-        font-size: large;
-        font-weight: bold;
-        margin-top: 0;
-        margin-bottom: 2px;
-      }
-    
-    div p:nth-child(3) {
+  div p:nth-child(4) {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+
+  div p:nth-child(3) {
     font-size: small;
     color: grey;
     margin-top: 0;
     margin-bottom: 0;
-    }
+  }
 
-    figure img {
-        width: 100%;
-      }
+  figure img {
+    width: 100%;
+  }
 }
